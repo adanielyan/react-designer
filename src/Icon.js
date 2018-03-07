@@ -167,7 +167,7 @@ export default class Icon extends Component {
         viewBox="0 0 24 24"
         onClick={this.props.onClick}
         preserveAspectRatio="xMidYMid meet"
-        fit
+        fit={"true"}
         style={{ ...styles, ...this.props.style }}
       >
         {this.renderGraphic()}

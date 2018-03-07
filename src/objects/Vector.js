@@ -9,7 +9,7 @@ import {
 } from "../panels";
 
 export default class Vector extends Component {
-  static panels = [SizePanel, TextPanel, StylePanel, ArrangePanel];
+  static panels = [SizePanel, TextPanel, StylePanel, ArrangePanel, ImagePanel];
 
   getStyle() {
     let { object } = this.props;
