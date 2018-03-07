@@ -1,4 +1,11 @@
-export Preview from './Preview';
-export {Vector, Path, Rect, Circle, Text} from './objects';
-export {TextPanel, SizePanel, StylePanel, ArrangePanel} from './panels';
-export default from './Designer';
+export { default as Preview } from "./Preview";
+export { Vector, Path, Rect, Circle, Text, Image } from "./objects";
+export {
+  TextPanel,
+  SizePanel,
+  StylePanel,
+  ArrangePanel,
+  ImagePanel
+} from "./panels";
+import Designer from "./Designer";
+export default Designer;
